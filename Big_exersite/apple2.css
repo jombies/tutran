@@ -1,0 +1,328 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+hr{
+    border: 10px;
+}
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+}
+.icon-COVID-19{
+    padding: 015px;
+    margin-top:44px ;
+    margin-bottom: 10px;
+    background: rgb(0,90,182);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.shop-online{
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+} 
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+.nav-list-mobile{
+    display: none;
+}
+.nav-link{
+    font-size: 1.4rem;
+    color: white;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+.nav-link:hover{
+    opacity: .8;
+}
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4,4rem;
+    background: url() center no-repeat;
+}
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url()center no-repeat;
+}
+.nav-link-bag{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url()center no-repeat;
+}
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07134;
+    letter-spacing: -.005rem;
+}
+.title-sub-heading{
+    font-size: 2.56rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    display: inline-block;
+    font-size: 2.1rem;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+.hero{
+    border-top: 6px solid white;
+    border-bottom: 6px solid white;
+}
+.iPhone-se{
+    height: 600px;
+    background: url("img/iPhone-se1.jpg") center no-repeat;
+    background-color: rgb(19,19,19);
+    background-position: bottom;
+    background-size:contain;
+}
+
+.iPhone11{
+    height: 600px;
+    background: url("img/iPhone11.jpg") center no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    border-image: 0px 20px;
+}
+.iPad-Pro{
+    height: 600px;
+    background: url("img/iPad-pro.jpg") center no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: rgb(250,250,250);
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+
+.back-to-school{
+    height: 600px;
+    width: 50%;
+    background: url("img/back-to-school.jpg") no-repeat center;
+    background-color: rgb(240,240,240);
+    background-position: bottom;
+    border: 5px solid white;
+}
+.watch{
+    height: 600px;
+    width: 50%;
+    background: url("img/wacth.jpg") no-repeat center;
+    background-color: rgb(250,250,250);
+    background-position: bottom;
+    border: 5px solid white;
+}
+.apple-tv{
+    height: 600px;
+    width: 50%;
+    background: url("img/tile__cauwwcyyn9hy_large\ \(1\).jpg") no-repeat center;
+    background-size: cover;
+    border: 5px solid white;
+}
+.Arcade{
+    height: 600px;
+    width: 50%;
+    background: url("img/arcade.jpg") no-repeat center;
+    background-size: cover;
+    border: 5px solid white;
+}
+.apple-card{
+    height: 600px;
+    width: 50%;
+    background: url("img/apple-card.jpg") center no-repeat;
+    background-position: bottom;
+    border: 5px solid white;
+}
+.store-opening{
+    background-color: rgb(240,240,240);
+    height: 600px;
+    width: 50%;
+    background: url("img/tile__cauwwcyyn9hy_medium.jpg") center no-repeat;
+    background-position: bottom;
+    border: 5px solid white;
+}
+.caution{
+    padding: 17px 0 11px;
+    border-bottom: 1px solid gray;
+}
+.caution li{
+    font-size: 12px;
+    line-height: 1.3333;
+    font-weight: 400;
+    letter-spacing: -1;
+    padding-bottom: 1.8rem;
+    text-decoration: none;
+}
+
+.footer-nav{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+.container1 ,.container2 ,.container3 ,.container4 ,.container5 ,.container6{
+    margin: 0 20px;
+    border-bottom: 30px;
+    letter-spacing: normal;
+}
+.product{
+    color: rgb(61, 60, 58);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav-tabs{
+    list-style: none;
+}
+.nav-tabs a{
+    color: rgb(170, 167, 165);
+    margin-top: .8rem;
+    font-size: 1.2rem;
+}
+.content{
+    position: relative;
+    top: -3px;
+
+}
+.footer-shop{
+    margin-top: 20px;
+    display: inline-table;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+.foot{
+    font-size: 12px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.title-smalls{
+    margin: 0 20px;
+    display: flex;
+}
+.title-small{
+    border-right: 1px solid #d2d2d7;
+    color: #86868b;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media screen and (max-width:767px){
+    header{
+        height: 4.8rem;
+        transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1);
+                    height: .56s cubic-bezier(0.32, 0.08, 0.24, 1);
+    }
+
+    header .container{
+        padding: 0px;
+    }
+    .iPhone-se{
+        margin-top: 4.8rem;
+    }
+    .nav-list-pc{
+        display: none;
+    }
+    .nav-list{
+        margin-top: 0px;
+    }
+    .nav-list-mobile{
+        display: flex;
+    }
+    .nav-item{
+        width: 4,8rem;
+        height: 4.8rem;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-item-hidden{
+        display: none;
+    }
+    .mobile-menu{
+        position: relative;
+        z-index: 1500;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .line{
+        position: absolute;
+        width: 10px;
+        height: 1px;
+        background-color: white;
+        transform:  margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    .line top{
+        margin-top: 3px;
+    }
+    .line bottom{
+        margin-top: -4px;
+    }
+    .active .line-top{
+        margin-top: 0px;
+        transform: rotate(45deg);
+        transition: transform;
+
+    }
+}
